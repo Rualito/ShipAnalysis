@@ -1,4 +1,4 @@
-# example for accessing smeared hits and fitted tracks
+B# example for accessing smeared hits and fitted tracks
 from __future__ import division
 import ROOT,os,sys,getopt
 import rootUtils as ut
@@ -30,7 +30,7 @@ flag0 = 1
 
 h = {}
 
-allowed_decays = ["K- mu- ", "mu- K+ ", "mu+ mu- ", "pi- pi+ ", "pi+ mu- ", "pi- mu+ "]
+allowed_decays = ["K- mu+ ", "mu- K+ ", "mu+ mu- ", "pi- pi+ ", "mu- pi+ ", "pi- mu+ "]
 
 Mass_bins = 600
 ut.bookHist(h,'Invariant_Mass','Mass (GeV)',nbinsx=Mass_bins, xmin=0.0, xmax=3.0)
