@@ -1,4 +1,4 @@
-B# example for accessing smeared hits and fitted tracks
+# example for accessing smeared hits and fitted tracks
 from __future__ import division
 import ROOT,os,sys,getopt
 import rootUtils as ut
